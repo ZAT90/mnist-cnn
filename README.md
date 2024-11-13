@@ -56,23 +56,13 @@ numpy
 - Validation Accuracy & Loss: How well the model generalizes to unseen data (validation set) during training.
 
 ### Sample Output
+
 #### Test accuracy
 ```
 Test accuracy: 98.45%
 ```
 #### Training and Validation Accuracy Plot
-```
-precision    recall  f1-score   support
+[Accuracy](https://github.com/ZAT90/mnist-cnn/blob/master/accuracy.jpeg)
 
-        0       0.90      0.86      0.88      1250
-        1       0.87      0.92      0.89      1250
-
-    accuracy                           0.89      2500
-   macro avg       0.89      0.89      0.89      2500
-weighted avg       0.89      0.89      0.89      2500
-```
 #### Training and Validation Loss Plot
-```
-[[1072  178]
- [ 100 1150]]
-```
+[Loss](https://github.com/ZAT90/mnist-cnn/blob/master/loss.jpeg)
